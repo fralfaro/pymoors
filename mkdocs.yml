@@ -35,7 +35,7 @@ theme:
   - navigation.tabs
   - navigation.footer
 repo_url: https://github.com/andresliszt/pymoors
-repo_name: "GitHub"
+repo_name: "andresliszt/pymoors"
 
 markdown_extensions:
   - pymdownx.superfences
