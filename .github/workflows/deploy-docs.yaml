@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip instal lmkdocs-material
+          pip install mkdocs pymdown-extensions mkdocs-material
 
       - name: Deploy to GitHub Pages
         run: |
