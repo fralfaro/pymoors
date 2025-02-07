@@ -7,9 +7,6 @@ Currently, pymoors comes with a battery of **pre-defined genetic operators** imp
 !!! warning 
     At the moment, pymoors does not provide a way to define custom genetic operators using NumPy functions. This feature is planned to be available as soon as possible.
 
-
-
-
 Each genetic operator in pymoors is exposed to Python as a class. For example, consider the following:
 
 ```python
@@ -26,5 +23,3 @@ crossover=ExponentialCrossover(exponential_crossover_rate = 0.75)
 !!! warning 
     1. Currently, these instances serve only as a means to inform Rust which operator to use, but they do not expose any public methods to Python; everything functions internally within the Rust core. We are currently evaluating whether it is necessary to expose these methods to Python so that users can interact with them.
     2. This section will be updated with more information on all the genetic operators in the near future.
-
-
