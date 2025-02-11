@@ -9,7 +9,6 @@ Based on exact elimination, meaning that two individuals (genes1 and genes2) are
 !!! warning 
     Benchmarks comparing pymoors with other Python libraries will be published soon. These benchmarks will highlight the importance and performance impact of duplicate elimination in genetic algorithms.
 
-
 ```python
 from pymoors import ExactDuplicatesCleaner
 
